@@ -1,28 +1,32 @@
 # Presencis
 
-Open standards and verification tools for Sovereign AI Assurance.
+Open standards, schemas, and offline verification tools for **Sovereign AI Assurance**.
 
-Presencis publishes the document shapes and the offline checks behind an AI bill of materials, a cryptographic bill of materials, a verified software bill of materials, and post-quantum evidence receipts. The product site is the authority. These repositories are the public engineering surface.
+Presencis publishes the machine-readable document schemas, regulatory crosswalks, and offline cryptographic verifiers behind AI Bills of Materials (**AI-BOM**), Cryptographic Bills of Materials (**CBOM**), Verified Software Bills of Materials (**VSBOM**), and post-quantum signed evidence receipts (`Ed25519` + FIPS 204 `ML-DSA-65`).
 
-## Canonical sites
+## Canonical Surfaces
 
-- https://presencis.com/
-- https://presencis.com/aegis/
-- https://presencis.com/vigil/
-- https://presencis.com/halo/
-- https://huggingface.co/presencis
+- **Platform & Documentation:** https://presencis.com/
+- **Aegis Assurance & Quad-BOM:** https://presencis.com/aegis/
+- **Vigil Runtime Observation:** https://presencis.com/vigil/
+- **Halo Cryptography & Receipts:** https://presencis.com/halo/
+- **Hugging Face Organization:** https://huggingface.co/presencis
+- **npm Scope:** `@presencis` (`https://www.npmjs.com/org/presencis`)
 
-## Wave 1 public assets
+## Open Repositories & Datasets
 
-| Asset | Location | What it is |
-| --- | --- | --- |
-| .github | github.com/presencis/.github | This profile, the security policy, and the Apache-2.0 license |
-| bom-schemas | github.com/presencis/bom-schemas | AI-BOM, CBOM, and VSBOM schemas plus checkers |
-| halo-verify | github.com/presencis/halo-verify | Offline post-quantum evidence and receipt verifier |
-| regulatory-crosswalks | github.com/presencis/regulatory-crosswalks | Regulatory crosswalk data |
-| regulatory-mcp | github.com/presencis/regulatory-mcp | Regulatory lookup tool |
-| regulatory-clause-qa-bench | huggingface.co/presencis/regulatory-clause-qa-bench | Clause question-and-answer bench |
-| shadow-ai-endpoint-taxonomy | huggingface.co/presencis/shadow-ai-endpoint-taxonomy | Endpoint taxonomy |
-| posture-receipt-inspector | huggingface.co/presencis/posture-receipt-inspector | Posture receipt inspector |
+| Asset | Platform | Location | Purpose |
+| --- | --- | --- | --- |
+| `.github` | GitHub | https://github.com/Presencis-com/.github | Organization profile, coordinated disclosure (`SECURITY.md`), Apache-2.0 license |
+| `bom-schemas` (`@presencis/bom-schemas`) | GitHub / npm | https://github.com/Presencis-com/bom-schemas | JSON Schema Draft 2020-12 + Zod validators for AI-BOM, CBOM, and VSBOM |
+| `halo-verify` (`@presencis/halo-verify`) | GitHub / npm | https://github.com/Presencis-com/halo-verify | Offline `Ed25519` + FIPS 204 `ML-DSA-65` evidence & audit receipt verifier CLI/library |
+| `regulatory-crosswalks` | GitHub | https://github.com/Presencis-com/regulatory-crosswalks | Cross-framework crosswalks across 95 global AI, cyber, healthcare, and privacy regimes |
+| `regulatory-mcp` (`@presencis/regulatory-mcp`) | GitHub / npm | https://github.com/Presencis-com/regulatory-mcp | Read-only stdio MCP server for frameworks, crosswalks, and compliance Q&As |
+| `regulatory-clause-qa-bench` | Hugging Face | https://huggingface.co/datasets/presencis/regulatory-clause-qa-bench | 360 regulatory Q&A benchmark rows grounded to https://presencis.com/questions/ |
+| `shadow-ai-endpoint-taxonomy` | Hugging Face | https://huggingface.co/datasets/presencis/shadow-ai-endpoint-taxonomy | Egress classification taxonomy for 54 commercial AI, coding, and agent endpoints |
+| `posture-receipt-inspector` | Hugging Face Space | https://huggingface.co/spaces/presencis/posture-receipt-inspector | Zero-egress client-side browser inspector for AI-BOM, CBOM, VSBOM, and signed receipts |
 
-License for this profile: Apache-2.0. Report vulnerabilities to security@presencis.com. See `SECURITY.md`.
+## Security & Licensing
+
+All repositories and datasets listed above are released under the **Apache License 2.0**. Report security vulnerabilities to **security@presencis.com** — see [SECURITY.md](https://github.com/Presencis-com/.github/blob/main/SECURITY.md).
+
