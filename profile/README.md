@@ -26,7 +26,23 @@ Presencis publishes the machine-readable document schemas, regulatory crosswalks
 | `shadow-ai-endpoint-taxonomy` | Hugging Face | https://huggingface.co/datasets/presencis/shadow-ai-endpoint-taxonomy | Egress classification taxonomy for 54 commercial AI, coding, and agent endpoints |
 | `posture-receipt-inspector` | Hugging Face Space | https://huggingface.co/spaces/presencis/posture-receipt-inspector | Zero-egress client-side browser inspector for AI-BOM, CBOM, VSBOM, and signed receipts |
 
+## Install
+
+[![npm @presencis/bom-schemas](https://img.shields.io/npm/v/@presencis/bom-schemas?label=%40presencis%2Fbom-schemas)](https://www.npmjs.com/package/@presencis/bom-schemas)
+[![npm @presencis/halo-verify](https://img.shields.io/npm/v/@presencis/halo-verify?label=%40presencis%2Fhalo-verify)](https://www.npmjs.com/package/@presencis/halo-verify)
+[![npm @presencis/regulatory-mcp](https://img.shields.io/npm/v/@presencis/regulatory-mcp?label=%40presencis%2Fregulatory-mcp)](https://www.npmjs.com/package/@presencis/regulatory-mcp)
+
+```bash
+npm i @presencis/bom-schemas       # AI-BOM / CBOM / VSBOM schemas + validators
+npm i @presencis/halo-verify       # offline Ed25519 + ML-DSA-65 receipt verifier
+npx -y @presencis/regulatory-mcp   # read-only regulatory MCP server (stdio)
+```
+
 ## Security & Licensing
 
 All repositories and datasets listed above are released under the **Apache License 2.0**. Report security vulnerabilities to **security@presencis.com** — see [SECURITY.md](https://github.com/Presencis-com/.github/blob/main/SECURITY.md).
+
+## Follow
+
+[Website](https://presencis.com/) · [X](https://x.com/presencis) · [LinkedIn](https://www.linkedin.com/company/presencis) · [YouTube](https://www.youtube.com/@presencis) · [Hugging Face](https://huggingface.co/presencis) · [npm](https://www.npmjs.com/org/presencis)
 
