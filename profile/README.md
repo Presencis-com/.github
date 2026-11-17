@@ -7,9 +7,14 @@ Presencis publishes the machine-readable document schemas, regulatory crosswalks
 ## Canonical Surfaces
 
 - **Platform & Documentation:** https://presencis.com/
-- **Aegis Assurance & Quad-BOM:** https://presencis.com/aegis/
-- **Vigil Runtime Observation:** https://presencis.com/vigil/
-- **Halo Cryptography & Receipts:** https://presencis.com/halo/
+- **Solutions Hub:** https://presencis.com/solutions/
+- **Vigil (Shadow AI & Estate Observation):** https://presencis.com/solutions/vigil/ · https://presencis.com/vigil/
+- **Aegis (Regulatory Readiness & Quad-BOM):** https://presencis.com/solutions/aegis/ · https://presencis.com/aegis/
+- **Sovereign AI OS (On-Premise AI Execution):** https://presencis.com/solutions/sovereign-ai-os/
+- **Forge Prover (Deterministic Verification):** https://presencis.com/solutions/forge-prover/
+- **Edge Mend (Governed Remediation):** https://presencis.com/solutions/edge-mend/
+- **Halo Cryptography & Receipt Verifier:** https://presencis.com/halo/ · https://presencis.com/verify/
+- **Regulatory Corpus & Q&A:** https://presencis.com/regulations/ · https://presencis.com/questions/
 - **Hugging Face Organization:** https://huggingface.co/presencis
 - **npm Scope:** `@presencis` (`https://www.npmjs.com/org/presencis`)
 
@@ -22,7 +27,7 @@ Presencis publishes the machine-readable document schemas, regulatory crosswalks
 | `halo-verify` (`@presencis/halo-verify`) | GitHub / npm | https://github.com/Presencis-com/halo-verify | Offline `Ed25519` + FIPS 204 `ML-DSA-65` evidence & audit receipt verifier CLI/library |
 | `regulatory-crosswalks` | GitHub | https://github.com/Presencis-com/regulatory-crosswalks | Cross-framework crosswalks across 95 global AI, cyber, healthcare, and privacy regimes |
 | `regulatory-mcp` (`@presencis/regulatory-mcp`) | GitHub / npm | https://github.com/Presencis-com/regulatory-mcp | Read-only stdio MCP server for frameworks, crosswalks, and compliance Q&As |
-| `regulatory-clause-qa-bench` | Hugging Face | https://huggingface.co/datasets/presencis/regulatory-clause-qa-bench | 360 regulatory Q&A benchmark rows grounded to https://presencis.com/questions/ |
+| `regulatory-clause-qa-bench` | Hugging Face | https://huggingface.co/datasets/presencis/regulatory-clause-qa-bench | 350 regulatory Q&A benchmark rows grounded to https://presencis.com/questions/ |
 | `shadow-ai-endpoint-taxonomy` | Hugging Face | https://huggingface.co/datasets/presencis/shadow-ai-endpoint-taxonomy | Egress classification taxonomy for 54 commercial AI, coding, and agent endpoints |
 | `posture-receipt-inspector` | Hugging Face Space | https://huggingface.co/spaces/presencis/posture-receipt-inspector | Zero-egress client-side browser inspector for AI-BOM, CBOM, VSBOM, and signed receipts |
 
